@@ -100,6 +100,5 @@ def get_records():
     
     return jsonify(filtered_records)
 
-# Run the application
 if __name__ == '__main__':
     app.run(debug=True)
